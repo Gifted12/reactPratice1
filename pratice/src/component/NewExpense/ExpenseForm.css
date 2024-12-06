@@ -1,0 +1,23 @@
+.new-expense__controls{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 0 0 1rem 0;
+    text-align: left;
+}
+.new-expense__controls label{
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+.new-expense__controls input{
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+}
+.new-expense__actions{
+    text-align: right;
+}
